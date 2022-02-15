@@ -184,8 +184,8 @@ p{
   font-style: normal;
 
 }
-.address-item {
-  margin-bottom: 9px;
+.address-item + .address-item{
+  margin-top: 9px;
 }
 .place {
   color: var(--second-txt-color);
