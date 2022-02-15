@@ -88,6 +88,12 @@ p{
 
 .header{
   border-bottom : 1px solid #ECECEC;
+  
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  background: var(--bg-color);
 }
 .header .container{
   display: flex;
@@ -204,7 +210,8 @@ p{
 
   text-align: center;
 
-  height: calc(100vh - 80px);
+  /* height: calc(100vh - 80px); */
+  height: 100vh;
 }
 
 .hero-title {
@@ -335,6 +342,10 @@ p{
 }
 
 /* ? Portfolio */
+
+.product{
+  margin-top: 80px;
+}
 
 .filter-btn {
   display: flex;
